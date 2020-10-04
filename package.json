@@ -1,0 +1,23 @@
+{
+  "name": "timbuktools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/timbuktool/timbuktools.git"
+  },
+  "keywords": [
+    "first",
+    "project"
+  ],
+  "author": "Xmeat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timbuktool/timbuktools/issues"
+  },
+  "homepage": "https://github.com/timbuktool/timbuktools#readme"
+}
