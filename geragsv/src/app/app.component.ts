@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgxFileDropEntry, FileSystemFileEntry, FileSystemDirectoryEntry } from 'ngx-file-drop';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -32,7 +33,7 @@ export class AppComponent {
           const headers = new HttpHeaders({
             'security-token': 'mytoken'
           })
- 
+    
           this.http.post('https://mybackend.com/api/upload/sanitize-and-save-logo', formData, { headers: headers, responseType: 'blob' })
           .subscribe(data => {
             // Sanitized logo returned from backend
