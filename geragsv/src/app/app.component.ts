@@ -24,7 +24,7 @@ export class AppComponent {
           // Here you can access the real file
           console.log(droppedFile.relativePath, file);
  
-        
+         /*
           // You could upload it like this:
           const formData = new FormData()
           formData.append('logo', file, relativePath)
@@ -37,8 +37,8 @@ export class AppComponent {
           this.http.post('https://mybackend.com/api/upload/sanitize-and-save-logo', formData, { headers: headers, responseType: 'blob' })
           .subscribe(data => {
             // Sanitized logo returned from backend
-          })
-          
+          }) 
+          */
  
         });
       } else {
